@@ -119,7 +119,7 @@ pub static LANGUAGES: [LangInfo; 27] = [
     // Croatian; `hr`, `hr-HR` and `hr_HR.UTF-8` resolve here.
     LangInfo { code: "hr", prefer_hans: false, editing_lang: None },
     // Dutch; `nl`, `nl-NL`, `nl-BE` and `nl_NL.UTF-8` resolve here.
-    LangInfo { code: "nl", prefer_hans: false, editing_lang: None },
+    LangInfo { code: "nl", prefer_hans: false, editing_lang: Some("nl-NL") },
     // Danish; `da`, `da-DK` and `da_DK.UTF-8` resolve here.
     LangInfo { code: "da", prefer_hans: false, editing_lang: None },
     // Romanian; `ro`, `ro-RO`, `ro_RO.UTF-8` and `ro-MD` resolve here.
